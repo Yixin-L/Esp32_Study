@@ -1,0 +1,5 @@
+[1/4] cd /home/lyx/esp32/hello_world/build/esp-idf/esptool_py && /home/lyx/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/lyx/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/lyx/esp32/hello_world/build/partition_table/partition-table.bin /home/lyx/esp32/hello_world/build/hello_world.bin
+hello_world.bin binary size 0x35740 bytes. Smallest app partition is 0x100000 bytes. 0xca8c0 bytes (79%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/lyx/esp32/hello_world/build/bootloader/esp-idf/esptool_py && /home/lyx/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/lyx/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/lyx/esp32/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.

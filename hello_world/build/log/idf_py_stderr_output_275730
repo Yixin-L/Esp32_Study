@@ -1,0 +1,89 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758ba: panic_abort at /home/lyx/esp32/esp-idf/components/esp_system/panic.c:472
+0x40379add: esp_system_abort at /home/lyx/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fdc9: __assert_func at /home/lyx/esp32/esp-idf/components/newlib/assert.c:81
+0x4037a15a: xQueueSemaphoreTake at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x4037fb88: esp_log_impl_lock_timeout at /home/lyx/esp32/esp-idf/components/log/log_freertos.c:48
+0x42018416: esp_log_writev at /home/lyx/esp32/esp-idf/components/log/log.c:207
+0x4037fb3d: esp_log_write at /home/lyx/esp32/esp-idf/components/log/log.c:225
+0x42017cae: main_task at /home/lyx/esp32/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037a341: vPortTaskWrapper at /home/lyx/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

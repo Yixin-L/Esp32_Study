@@ -1,0 +1,7 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048dfc: uart_rx_readbuff in ROM
+[0m
+[0;33m0x40375830: esp_restart_noos at /home/lyx/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m
